@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Mar 24 20:34:57 2017
+
+@author: Leszek
+"""
+
+# 8.9 Magicy - wariant II
+def show_magicians(magician_names):
+    """Wyswietla imiona magikow zamieszczone na liscie"""    
+    print(magician_names)
+
+magicians = ['crazy jackie', 'mirrafiori', 'great mag']            
+show_magicians(magicians)
+
+
+#8.10 Doskonali magicy - II wariant
+def show_magicians(magician_names):
+    """Wyswietla imiona magikow zamieszczone na liscie"""
+    print (magician_names)
+        
+def make_great(magician_names):
+    """Modyfikuje listę imion magików przez dodanie doskonały"""
+    for x in range(len(magician_names)):
+        magician_names[x] = 'doskonały'.title() + ' ' + magician_names[x].title()
+                
+magicians = ['crazy jackie', 'mirrafiori', 'great mag']            
+make_great(magicians)
+show_magicians(magicians)
+
+#8.11 Niezmienieni magicy - wariant II
+def show_magicians(magician_names):
+    """Wyswietla imiona magikow zamieszczone na liscie"""
+    print(magician_names)
+
+def make_great(magician_names):
+    """Modyfikuje listę imion magików przez dodanie doskonały"""
+    for x in range(len(magician_names)):
+        magician_names[x] = 'doskonały'.title() + ' ' + magician_names[x].title()
+        great_magicians.append(magician_names[x])
+    return great_magicians
+        
+magicians = ['crazy jackie', 'mirrafiori', 'great mag']            
+great_magicians = []
+new_list = make_great(magicians[:])
+show_magicians(new_list)
+show_magicians(magicians)

@@ -1,0 +1,4 @@
+W Pythonie mo¿na dokonywaæ obliczeñ jak na kalkulatorze.
+W Pythonie mo¿na obs³ugiwaæ du¿e zbiory danych.
+W Pythonie mo¿na gromadziæ funkcje i klasy w modu³ach.
+W Pythonie mo¿na ...prawie wszystko.
