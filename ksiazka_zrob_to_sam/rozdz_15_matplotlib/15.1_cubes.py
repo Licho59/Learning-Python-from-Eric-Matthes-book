@@ -14,3 +14,4 @@ plt.ylabel("Sześcian wartości", fontsize=16)
 plt.tick_params(axis='both', labelsize=16)
 
 plt.show()
+# blablabla
