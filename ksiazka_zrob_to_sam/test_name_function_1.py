@@ -22,8 +22,7 @@ class NamesTestCase(unittest.TestCase):
          # oznacza: "porownaj wartosć zmiennej f_n z ciągem 'Janis Joplin'
     
     def test_first_middle_last_name(self):
-        """Czy dane w postacji 'Wolfgang Amadeus Mozart' są obsługiwane
-            prawidłowo?"""
+        """Czy dane w postacji 'Wolfgang Amadeus Mozart' są obsługiwaneprawidłowo?"""
         formatted_name = get_formatted_name('wolfgang', 'mozart', 'amadeus')
         self.assertEqual(formatted_name, 'Wolfgang Amadeus Mozart')
 
